@@ -136,3 +136,96 @@ section {
 }
 
 /* End Donation Section  */
+
+
+/* Start Donation plan Section  */
+.dn-item {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* text-align: center; */
+}
+
+.help-item {
+    margin: 40px;
+    padding: 100px 30px 44px;
+    background-color: #4f9da68f;
+}
+
+#book {
+    margin: 40px;
+    padding: 100px 30px 44px;
+    background-color: #ff595990;
+}
+
+#shelter {
+    margin: 40px;
+    padding: 100px 30px 44px;
+    background-color: #FFF4D6;
+}
+
+.help-item h4 {
+    font-size: 30px;
+    color: #121212;
+    margin-top: 10px;
+}
+
+#book h4 {
+    font-size: 30px;
+    color: #121212;
+    margin-top: 10px;
+}
+
+#shelter h4 {
+    font-size: 30px;
+    color: #121212;
+    margin-top: 10px;
+}
+
+.help-item p {
+    font-size: 16px;
+    width: 100%;
+}
+
+#book p {
+    font-size: 16px;
+    width: 100%;
+}
+
+#shelter p {
+    font-size: 16px;
+    width: 100%;
+}
+
+/* End Donation plan Section  */
+
+
+
+/* Start Depend on Section  */
+.depend-contend {
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.depend-contend h2 {
+    font-size: 45px;
+}
+
+.depend-contend img {
+    width: 80%;
+}
+
+/* End Depend on Section  */
+
+.email {
+    text-align: center;
+    background-color: #FFF4D6;
+    width: 70%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.email input {
+    padding-right: ;
+}
