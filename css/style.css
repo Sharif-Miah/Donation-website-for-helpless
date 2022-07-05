@@ -227,5 +227,26 @@ section {
 }
 
 .email input {
-    padding-right: ;
+    padding: 20px 50px 20px 15px;
+    border: none;
+    font-size: 16px;
+    background-color: #D9D9D9;
+    color: #AA9F9F;
+
+}
+
+.footer {
+    background-color: #121212;
+    padding: 60px;
+    text-align: center;
+}
+
+.footer h3 {
+    color: #FF5959;
+    font-size: 36px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #fff;
 }
