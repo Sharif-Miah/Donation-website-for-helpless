@@ -7,7 +7,24 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 2;
+    color: #707070;
+}
+
 /* Start Heading Section  */
+section {
+    margin-bottom: 80px;
+}
 
 .header {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../img/donation5.jpg);
@@ -27,19 +44,11 @@ body {
 }
 
 
-
-h1 {
-    font-size: 65px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    line-height: 1.2;
-}
-
-p {
-    font-size: 18px;
+.header-content p {
+    font-size: 20px;
     margin: 20px 0;
     line-height: 2;
-
+    color: #fff;
 }
 
 .btn {
@@ -57,3 +66,73 @@ p {
 }
 
 /* End Heading Section  */
+
+
+/* Start Donation Section  */
+
+.donation-content {
+    text-align: center;
+}
+
+.donation-content h2 {
+    font-size: 45px;
+    color: #121212;
+}
+
+.donation-price {
+    margin-top: 50px;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    margin: 0 10px;
+    padding: 40px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+
+.item h3 {
+    font-size: 30px;
+    color: #707070;
+    font-weight: bold;
+
+}
+
+#five-hun {
+    background-color: #FFEEFE;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    margin: 0 10px;
+    padding: 40px;
+    border-radius: 5px;
+
+}
+
+#five-hun h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.input {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.input-text {
+    font-size: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 25px;
+    padding: 10px 336px;
+    text-align: center;
+    border-color: #70707045;
+}
+
+/* End Donation Section  */
