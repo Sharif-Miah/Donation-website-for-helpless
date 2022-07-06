@@ -152,16 +152,25 @@ section {
     background-color: #4f9da68f;
 }
 
+#food {
+    width: 33%;
+    border-radius: 8px;
+}
+
 #book {
+    width: 33%;
     margin: 40px;
     padding: 100px 30px 44px;
     background-color: #ff595990;
+    border-radius: 8px;
 }
 
 #shelter {
+    width: 33%;
     margin: 40px;
     padding: 100px 30px 44px;
     background-color: #FFF4D6;
+    border-radius: 8px;
 }
 
 .help-item h4 {
@@ -174,6 +183,7 @@ section {
     font-size: 30px;
     color: #121212;
     margin-top: 10px;
+    margin-right: 20px;
 }
 
 #shelter h4 {
@@ -237,7 +247,7 @@ section {
 
 .footer {
     background-color: #121212;
-    padding: 60px;
+    padding: 80px;
     text-align: center;
 }
 
@@ -249,4 +259,5 @@ section {
 .footer p {
     font-size: 14px;
     color: #fff;
+    font-weight: 100;
 }
