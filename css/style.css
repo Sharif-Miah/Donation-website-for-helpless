@@ -7,6 +7,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Start Reuse Code for below  */
+
 h1 {
     font-size: 65px;
     font-weight: 700;
@@ -15,11 +17,29 @@ h1 {
 }
 
 p {
+
     font-size: 20px;
     margin: 20px 0;
     line-height: 2;
     color: #707070;
+
 }
+
+.btn {
+    border: none;
+    padding: 18px 40px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* End Reuse Code for below  */
 
 /* Start Heading Section  */
 section {
@@ -51,19 +71,7 @@ section {
     color: #fff;
 }
 
-.btn {
-    border: none;
-    padding: 18px 40px;
-    background-color: #FF5959;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
-.btn a {
-    color: #fff;
-    font-size: 18px;
-    text-decoration: none;
-}
 
 /* End Heading Section  */
 
@@ -228,6 +236,8 @@ section {
 
 /* End Depend on Section  */
 
+/* Start Email update Section  */
+
 .email {
     text-align: center;
     background-color: #FFF4D6;
@@ -250,6 +260,10 @@ section {
 
 }
 
+/* End Email update Section  */
+
+/* Footer section  */
+
 .footer {
     background-color: #121212;
     padding: 80px;
@@ -266,3 +280,5 @@ section {
     color: #fff;
     font-weight: 100;
 }
+
+/* Footer section  */
